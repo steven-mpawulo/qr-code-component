@@ -1,7 +1,9 @@
+import QrCodeCard from "./components/QrCodeCard";
+
 function App() {
   return (
     <div className="App">
-      Hello
+      <QrCodeCard/>
     </div>
   );
 }
