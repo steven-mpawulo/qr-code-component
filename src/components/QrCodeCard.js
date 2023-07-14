@@ -1,5 +1,6 @@
 import React from 'react'
 import QrCodeImage from '../images/image-qr-code.png'
+import '../styles/qr-code-component.css'
 
 const QrCodeCard = () => {
   return (
@@ -9,8 +10,8 @@ const QrCodeCard = () => {
                 <img src={QrCodeImage} alt="qr-code" />
             </div>
             <div className="text-container">
-                <p>Improve your front-end skills by building projects</p>
-                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+                <p className='first-text'>Improve your front-end <span className='skills-text'>skills by building projects</span></p>
+                <p className='second-text'>Scan the QR code to visit Frontend Mentor and take your coding skills to <span className='next-level-text'>the next level</span></p>
             </div>
         </div>
     </div>
